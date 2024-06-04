@@ -1,0 +1,60 @@
+@media only screen and (max-width: 600px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .banner-img{
+        width: 100%;
+        background: #525050;
+        min-height: 60vh;
+        /* position: absolute; */
+    }
+    .announcement{
+        color: black;
+        text-align: center;
+        position: relative;
+        font-size: 170%;
+        font-weight: 600;
+        width: 200px;
+        left: 22%;
+        margin-top: -50%;
+        line-height: 30px;
+    }
+    .hash-tag{
+        color: black;
+        text-align: center;
+        position: relative;
+        font-size: 170%;
+        font-weight: 400;
+        width: 200px;
+        left: 14%;
+        margin-top: 10%;
+        line-height: 30px; 
+        margin-bottom: 15%
+    }
+    .invite-board{
+        background: rgb(209, 207, 207);
+        min-width: 100%;
+        min-height: 40vh;
+    }
+    .announcement-01{
+        text-align: center;
+        padding: 10px;
+       
+    }
+    .invite-note{
+        text-align: center;
+        font-size: 13px;
+        margin: 20px 20px;
+        line-height: 21px;
+    }
+    .hash-tag-one{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .color-of-the-day{
+        text-align: center;
+    }
+}
+

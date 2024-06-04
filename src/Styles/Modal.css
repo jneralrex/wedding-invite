@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.modal-board{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.9);
+    height: 100vh;
+    color: white;
+}
+.modal-content{
+min-height: 50vh;
+text-align: center;
+margin: 20% 5px 5px 5px;
+
+}
