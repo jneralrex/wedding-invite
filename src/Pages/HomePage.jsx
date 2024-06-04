@@ -15,7 +15,7 @@ const HomePage = () => {
 
   useEffect(()=>{
     toggleModal()
-  },[])
+  },[toggleModal()])
   return (
     <div>
       <Header />

@@ -1,11 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Header from "./Components/Header";
 import HomePage from "./Pages/HomePage";
 
 function App() {
 return(
     <div className="App">
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
         <Route path="/" element={<HomePage/>} exact/>
     </Routes> 
