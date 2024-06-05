@@ -80,7 +80,7 @@ const HomePage = () => {
     <div>
       <Header />
       <div className="banner-img">
-        jdfjdf
+    
       </div>
       <div className="announcement">
         WE'RE GETTING MARRIED!

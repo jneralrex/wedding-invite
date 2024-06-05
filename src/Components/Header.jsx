@@ -18,6 +18,9 @@ const Header = () => {
             <div className="registry navBtn">
                 Wedding Registry
             </div>
+            <div className="timeCounter navBtn">
+                00:00:00
+            </div>
             </div>
         </nav>
         

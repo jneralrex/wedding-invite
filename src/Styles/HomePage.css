@@ -1,16 +1,15 @@
-@media only screen and (max-width: 600px){
-    *{
+@media only screen and (max-width: 375px) {
+    * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
     }
-    .banner-img{
+    .banner-img {
         width: 100%;
         background: #525050;
         min-height: 60vh;
-        /* position: absolute; */
     }
-    .announcement{
+    .announcement {
         color: black;
         text-align: center;
         position: relative;
@@ -21,7 +20,7 @@
         margin-top: -50%;
         line-height: 30px;
     }
-    .hash-tag{
+    .hash-tag {
         color: black;
         text-align: center;
         position: relative;
@@ -30,30 +29,90 @@
         width: 200px;
         left: 14%;
         margin-top: 10%;
-        line-height: 30px; 
-        margin-bottom: 15%
+        line-height: 30px;
+        margin-bottom: 15%;
     }
-    .invite-board{
+    .invite-board {
         background: rgb(209, 207, 207);
         min-width: 100%;
         min-height: 40vh;
     }
-    .announcement-01{
+    .announcement-01 {
         text-align: center;
         padding: 10px;
-       
     }
-    .invite-note{
+    .invite-note {
         text-align: center;
         font-size: 13px;
         margin: 20px 20px;
         line-height: 21px;
     }
-    .hash-tag-one{
+    .hash-tag-one {
         text-align: center;
         margin-bottom: 20px;
     }
-    .color-of-the-day{
+    .color-of-the-day {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 320px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .banner-img {
+        width: 100%;
+        background: green;
+        min-height: 65vh;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+
+    }
+    .announcement {
+        color: black;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        width: 200px;
+        left: 19%;
+        margin-top: -55%;
+        line-height: 30px;
+    }
+    .hash-tag {
+        color: black;
+        text-align: center;
+        position: relative;
+        font-size: 20px;
+        font-weight: 400;
+        width: 270px;
+        left: 8%;
+        margin-top: 15px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+    .invite-board {
+        background: rgb(209, 207, 207);
+        min-width: 100%;
+        min-height: 40vh;
+        margin-top: -6%;
+    }
+    .announcement-01 {
+        text-align: center;
+        margin-top: 10px;
+
+    }
+    .invite-note {
+        text-align: center;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .hash-tag-one {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .color-of-the-day {
         text-align: center;
     }
 }
