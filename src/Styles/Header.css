@@ -1,3 +1,51 @@
+@media only screen and (max-width: 425px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        width: 100%;
+        height: 50px;
+        background: white;
+        color: black;
+        display: flex;
+        position: fixed;
+        z-index: 1;
+        justify-content: space-between;
+    }  
+    .logo{
+        padding: 10px;
+        margin: 2px;
+        border: 1px solid black;
+    }
+    .nav-items{
+        display: flex;
+        margin-top: 15px;
+        width: 80%;
+        justify-content: space-around;
+    }
+    /* .navBtn{
+        height: 25px;
+        padding: 3px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 12px;
+        border: 1px solid black;
+
+    } */
+    .navBtn{
+        height: 25px;
+        padding: 3px;
+        margin: 2px;
+        text-align: center;
+        font-size: 12px;
+        border: 1px solid black;
+    }
+}
+
 @media only screen and (max-width: 375px){
     *{
         padding: 0;
@@ -5,13 +53,15 @@
         box-sizing: border-box;
     }
     nav{
-        max-width: 100%;
-        min-height: 100%;
+        width: 100%;
+        height: 50px;
         background: white;
         color: black;
         display: flex;
-        
-    }  
+        position: fixed;
+        z-index: 1;
+        justify-content: space-between;
+    }    
     .logo{
         padding: 10px;
         border: 1px solid black;
@@ -20,16 +70,16 @@
     .nav-items{
         display: flex;
         margin-top: 15px;
-        justify-content: space-between;
+        width: 80%;
+        justify-content: space-around;
     }
     .navBtn{
         height: 25px;
         padding: 3px;
-        margin-top: 2px;
-        margin-bottom: 2px;
-        margin-left: 15px;
+        margin: 2px;
         text-align: center;
         font-size: 12px;
+        border: 1px solid black;
     }
 }
 
@@ -41,11 +91,11 @@
     }
     nav{
         max-width: 100%;
-        min-height: 100%;
+        min-height: 50px;
         background: white;
         color: black;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }  
     .logo{
         padding: 10px;
@@ -55,7 +105,8 @@
     .nav-items{
         display: flex;
         margin-top: 15px;
-        justify-content: space-between;
+        width: 80%;
+        justify-content: space-around;
     }
     .navBtn{
         height: 25px;

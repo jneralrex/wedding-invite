@@ -103,6 +103,12 @@ const HomePage = () => {
         <p className="color-of-the-day">
           Colors of the day
         </p>
+        <p className="colors">
+          Aqua Green / Olive Green
+        </p>
+      </div>
+      <div className='question'>
+        WILL YOU ATTEND?
       </div>
       {isModalOpen && <Modal closeModal={toggleModal} />}
     </div>
