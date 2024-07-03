@@ -9,7 +9,7 @@ import Gallery from "./Pages/Gallery";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
-      <Route path="/" element={<Header />}>
+      <Route path="/wedding-invite" element={<Header />}>
         <Route index element={<HomePage />} />
       </Route>
       <Route path="gallery" element={<Gallery />} />
