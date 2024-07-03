@@ -1,5 +1,7 @@
 import React from 'react'
-import '../Styles/Header.css'
+import '../Assets/Styles/Header.css'
+import { Outlet } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -9,11 +11,8 @@ const Header = () => {
                 Logo
             </div>
             <div className="nav-items">
-            <div className="home navBtn">
-                Home
-            </div>
             <div className="gallery navBtn">
-                Gallery
+            <NavLink to='/gallery'>Gallery</NavLink>
             </div>
             <div className="registry navBtn">
                 Wedding Registry
@@ -23,6 +22,9 @@ const Header = () => {
             </div>
             </div>
         </nav>
+        <main>
+            <Outlet/>
+        </main>
         
     </div>
   )

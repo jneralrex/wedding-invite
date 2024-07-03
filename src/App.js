@@ -1,16 +1,25 @@
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
+import Header from "./Components/Header";
+import Gallery from "./Pages/Gallery";
+
+
+
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route>
+      <Route path="/" element={<Header />}>
+        <Route index element={<HomePage />} />
+      </Route>
+      <Route path="gallery" element={<Gallery />} />
+    </Route>
+  )
+)
 
 function App() {
   return (
-    <div className="App">
-      <HashRouter>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-        </Routes>
-      </HashRouter>
-    </div>
+    <RouterProvider router={router} />
   );
 }
-
 export default App;

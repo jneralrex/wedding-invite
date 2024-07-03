@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Styles/Modal.css'
+import '../Assets/Styles/Modal.css'
 import { TfiClose } from "react-icons/tfi";
 
 
