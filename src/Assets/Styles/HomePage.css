@@ -5,6 +5,9 @@
         box-sizing: border-box;
     }
 
+    a{
+        text-decoration: none;
+    }
     .banner-img {
         width: 100%;
         background: #525050;
@@ -35,8 +38,9 @@
     .invite-board {
         background: rgb(209, 207, 207);
         width: 100%;
-        min-height: 40vh;
+        height: 50vh;
         padding: 10px;
+        margin-top: -5px;
     }
 
     .announcement-01 {
@@ -123,6 +127,10 @@
     .check-input {
         display: flex;
         font-size: 13px;
+    }
+
+    .check-input>input {
+      margin: 1px;
     }
 
     .check-input>p {

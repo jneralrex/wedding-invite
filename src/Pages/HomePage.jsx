@@ -27,6 +27,7 @@ const HomePage = () => {
 
   return (
     <div>
+      <Header/>
       <div className="banner-img"></div>
       <div className="announcement-holder">
         <div className="announcement">WE'RE GETTING MARRIED!</div>

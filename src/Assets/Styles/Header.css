@@ -5,8 +5,8 @@
         box-sizing: border-box;
     }
     a{
-        text-decoration: none;
-        color: #000;
+        text-decoration: none !important;
+        color: #000 !important;
     }
     nav{
         width: 100%;
