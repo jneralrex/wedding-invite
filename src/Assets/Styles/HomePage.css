@@ -4,8 +4,17 @@
         margin: 0;
         box-sizing: border-box;
     }
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    
     .homePage{
         background-color: hwb(250 95% 0%);
+        min-height: 100vh; /* Ensure the homepage takes at least the full height of the viewport */
+        display: flex;
+        flex-direction: column;
     }
     a{
         text-decoration: none;
@@ -14,10 +23,15 @@
         width: 100%;
         background: #525050;
         height: 70vh;
+        display: flex;
+        align-items: center;
     }
 
-    .announcement-holder {
-        margin-top: -100px;
+    .announcement-holder-outter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto 60px;
     }
 
     .announcement {
@@ -40,12 +54,11 @@
     .invite-board {
         background: rgb(209, 207, 207);
         width: 100%;
-        height: 200px;
         padding: 10px;
-        margin-top: -5px;
         display: flex;    
         align-items: center;
     }
+
     .invite-board-inner {
       margin: 10px;
     }

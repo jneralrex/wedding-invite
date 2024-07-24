@@ -27,12 +27,18 @@ const HomePage = () => {
 
   return (
     <div className="homePage">
+      <div className="header">
       <Header/>
-      <div className="banner-img"></div>
+      </div>
+      <div className="banner-img">
+      <div className="announcement-holder-outter">
       <div className="announcement-holder">
         <div className="announcement">WE'RE GETTING MARRIED!</div>
         <div className="hash-tag">#CantDanceDontCare</div>
       </div>
+      </div>
+      </div>
+     
 
       <div className="invite-board">
        <div className="invite-board-inner">
