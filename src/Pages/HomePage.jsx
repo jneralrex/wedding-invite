@@ -26,7 +26,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div>
+    <div className="homePage">
       <Header/>
       <div className="banner-img"></div>
       <div className="announcement-holder">
@@ -35,7 +35,8 @@ const HomePage = () => {
       </div>
 
       <div className="invite-board">
-        <p className="announcement-01">WE'RE GETTING MARRIED!</p>
+       <div className="invite-board-inner">
+       <p className="announcement-01">WE'RE GETTING MARRIED!</p>
         <p className="invite-note">
           The Love Of My Life (LOML) and I, invites you to our Wedding. Join us
           as we celebrate our love and commitment to each other. Your presence
@@ -44,6 +45,7 @@ const HomePage = () => {
         <p className="hash-tag-one">#CantDanceDontCare</p>
         <p className="color-of-the-day">Colors of the day</p>
         <p className="colors">Aqua Green / Olive Green</p>
+       </div>
       </div>
 
       <div className="form-area">
