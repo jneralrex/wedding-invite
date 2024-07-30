@@ -20,17 +20,17 @@ const Footer = () => {
               </div>
               <div className="color-and-tag">
               <div><FaTag style={{color:'yellowgreen'}}/></div> 
-              <div>Aqua Green</div>
+              <div className='color-name'>Aqua Green</div>
               </div>
               <div className="color-and-tag">
                 <div><FaTag style={{color:'purple'}}/></div> 
-                <div>Aqua Green</div>
+                <div className='color-name'>Aqua Green</div>
               </div> 
               <div className="divider">
                 CONTACT
               </div>
               <div className="contact-info">
-                <div><FiMessageSquare style={{color:'gold'}}/></div><div>ayobami_adetutu@gmail.com</div>
+                <div><FiMessageSquare style={{color:'gold'}}/></div><div className='contact'>ayobami_adetutu@gmail.com</div>
 
               </div>
             </div>
