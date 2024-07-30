@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='footer-outter'>
             <div className='footer-inner'>
               <div className="footer-logo">
-
+               Footer Logo
               </div>
               <div className="footer-qoute">
                 "Love is composed of a single soul inhabiting two bodies"

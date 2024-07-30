@@ -52,7 +52,7 @@
     }
 
     .invite-board {
-        background: rgb(209, 207, 207);
+        background-color: #f0f8ff80;
         width: 100%;
         padding: 10px;
         display: flex;    
