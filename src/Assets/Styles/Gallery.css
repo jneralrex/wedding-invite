@@ -11,7 +11,7 @@
     }
     .image-holder-outter{
         min-height: 100px;
-        max-width: 1440px;
+        max-width: 1023px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
@@ -41,13 +41,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
     }
     .image-holder-inner{
     height: 400px;
-    width: 400px;
+    width: 300px;
     border: 1px solid red;
-    margin: 20px auto;
+    margin: 10px;
     background-color: rgb(187, 180, 180);
     }
   
