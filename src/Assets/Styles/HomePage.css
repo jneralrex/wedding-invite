@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     * {
         padding: 0;
         margin: 0;
@@ -9,7 +9,6 @@
         padding: 0;
         height: 100%;
     }
-    
     .homePage{
         background-color: hwb(250 95% 0%);
         min-height: 100vh; /* Ensure the homepage takes at least the full height of the viewport */
@@ -26,14 +25,12 @@
         display: flex;
         align-items: center;
     }
-
     .announcement-holder-outter {
         display: flex;
         align-items: center;
         justify-content: center;
         margin: auto;
     }
-
     .announcement {
         color: black;
         text-align: center;
@@ -42,7 +39,6 @@
         width: 200px;
         margin: 0 auto;
     }
-
     .hash-tag {
         color: black;
         margin: 0 auto;
@@ -50,15 +46,13 @@
         font-size: 20px;
         font-weight: 400;
     }
-
     .invite-board {
-        background-color: #f0f8ff80;
+        background: rgb(226, 238, 248);
         width: 100%;
         padding: 10px;
         display: flex;    
         align-items: center;
     }
-
     .invite-board-inner {
       margin: 10px;
     }
@@ -66,49 +60,40 @@
         text-align: center;
         margin: 0 auto;
     }
-
     .invite-note {
         text-align: center;
         font-size: 13px;
         margin: 10px auto;
         line-height: 1.5;
     }
-
     .hash-tag-one {
         text-align: center;
         margin-bottom: 10px;
     }
-
     .color-of-the-day {
         text-align: center;
         margin-bottom: 10px;
     }
-
     .colors {
         text-align: center;
         margin-bottom: 10px;
     }
-
     .question {
         text-align: center;
         font-size: 30px;
     }
-
     .form-area {
         color: rgb(177, 109, 240);
         box-shadow: 0px 2px 2px 0px rgb(233, 228, 228);
         padding: 10px;
     }
-
     .form-block {
         display: block;
         margin: auto 10px;
     }
-
     .form-input-group, .form-input-btn {
         margin: 20px auto;
     }
-
     .form-input-group>input {
         height: 50px;
         border: none;
@@ -116,11 +101,9 @@
         border-bottom: 1px solid rgb(177, 109, 240);
         background-color: #f5f3ff;
     }
-
     .form-input-group>input::placeholder {
         color: rgb(177, 109, 240);
     }
-
     .form-input-group>input:focus {
         height: 50px;
         border: 1px solid rgb(177, 109, 240);
@@ -128,39 +111,31 @@
         width: 100%;
 
     }
-
     .radio-area {
         display: flex;
     }
-    
     .radio-area>input{
         background-color: #f5f3ff;
     }
-
     .radio-area p {
         margin: auto 3px;
     }
-
     .check-area {
         margin: 15px auto;
         display: grid;
         grid-template-columns: auto auto;
     }
-
     .check-input {
         display: flex;
         font-size: 13px;
     }
-
     .check-input>input {
       margin: 1px;
       background-color: #f5f3ff;
     }
-
     .check-input>p {
         margin: auto 3px;
     }
-
     .form-input-group>textarea {
         height: 100px;
         border: none;
@@ -168,18 +143,200 @@
         border-bottom: 1px solid rgb(177, 109, 240);
         background-color: #f5f3ff;
     }
-
     .form-input-group>textarea::placeholder {
         color: rgb(177, 109, 240);
     }
-
     .form-input-group>textarea:focus {
         height: 100px;
         border: 1px solid rgb(177, 109, 240);
         outline: none;
         width: 100%;
     }
+    .form-input-btn>input {
+        padding: 15px;
+        width: 150px;
+        background: rgb(177, 109, 240);
+        border: none;
+        color: #f1f1f1;
+    }
+    .schedule{
+        margin: auto 10px;
+    }
+    .schedule-inner{
+        margin: 50px auto;
+        text-align: center;
+        width: 220px;
+    }
+    .schedule-inner>span{
+        font-size: 11px;
+        color: goldenrod;
+    }
+    .icons{
+        margin: 20px auto;
+        align-items: center;
+    }
+    .location{
+        margin: 20px auto;
+        font-size: 12px;
+        width: 205px;
+        line-height: 1.7;
+    }
+}
 
+@media only screen and (max-width: 768px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    .homePage{
+        background-color: hwb(250 95% 0%);
+        min-height: 100vh; /* Ensure the homepage takes at least the full height of the viewport */
+        display: flex;
+        flex-direction: column;
+    }
+    a{
+        text-decoration: none;
+    }
+    .banner-img {
+        width: 100%;
+        background: #525050;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+    }
+    .announcement-holder-outter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .announcement {
+        color: black;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        width: 200px;
+        margin: 0 auto;
+    }
+    .hash-tag {
+        color: black;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .invite-board {
+        background: rgb(226, 238, 248);
+        width: 100%;
+        padding: 10px;
+        display: flex;    
+        align-items: center;
+    }
+    .invite-board-inner {
+      margin: 10px;
+    }
+    .announcement-01 {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .invite-note {
+        text-align: center;
+        font-size: 13px;
+        margin: 10px auto;
+        line-height: 1.5;
+    }
+    .hash-tag-one {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .color-of-the-day {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .colors {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .question {
+        text-align: center;
+        font-size: 30px;
+    }
+    .form-area {
+        color: rgb(177, 109, 240);
+        box-shadow: 0px 2px 2px 0px rgb(233, 228, 228);
+        padding: 10px;
+    }
+    .form-block {
+        display: block;
+        margin: auto 10px;
+    }
+    .form-input-group, .form-input-btn {
+        margin: 20px auto;
+    }
+    .form-input-group>input {
+        height: 50px;
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid rgb(177, 109, 240);
+        background-color: #f5f3ff;
+    }
+    .form-input-group>input::placeholder {
+        color: rgb(177, 109, 240);
+    }
+    .form-input-group>input:focus {
+        height: 50px;
+        border: 1px solid rgb(177, 109, 240);
+        outline: none;
+        width: 100%;
+
+    }
+    .radio-area {
+        display: flex;
+    }
+    .radio-area>input{
+        background-color: #f5f3ff;
+    }
+    .radio-area p {
+        margin: auto 3px;
+    }
+    .check-area {
+        margin: 15px auto;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .check-input {
+        display: flex;
+        font-size: 13px;
+    }
+    .check-input>input {
+      margin: 1px;
+      background-color: #f5f3ff;
+    }
+    .check-input>p {
+        margin: auto 3px;
+    }
+    .form-input-group>textarea {
+        height: 100px;
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid rgb(177, 109, 240);
+        background-color: #f5f3ff;
+    }
+    .form-input-group>textarea::placeholder {
+        color: rgb(177, 109, 240);
+    }
+    .form-input-group>textarea:focus {
+        height: 100px;
+        border: 1px solid rgb(177, 109, 240);
+        outline: none;
+        width: 100%;
+    }
     .form-input-btn>input {
         padding: 15px;
         width: 150px;
