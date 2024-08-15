@@ -20,9 +20,9 @@ const Gallery = () => {
         </div> */}
         <br /><br /> <br />
         <Tabs
-      defaultActiveKey="profile"
+      defaultActiveKey="home"
       id="fill-tab-example"
-      className="mb-3"
+      className="mb-3 mt-2"
       fill
     >
       <Tab eventKey="home" title="PROPOSAL IMAGES">

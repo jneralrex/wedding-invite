@@ -1,3 +1,31 @@
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body,html{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    .image-holder-outter{
+        min-height: 100px;
+        max-width: 1439px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        justify-items: center;
+    }
+    .image-holder-inner{
+    height: 350px;
+    width: 350px;
+    border: 1px solid red;
+    margin: 10px;
+    background-color: rgb(187, 180, 180);
+    }
+} 
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     *{
         padding: 0;

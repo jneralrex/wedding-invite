@@ -4,6 +4,8 @@ import Header from "../Components/Header";
 import Modal from "../Components/Modal";
 import { TfiCalendar, TfiMusicAlt } from "react-icons/tfi";
 import  { FaChurch} from "react-icons/fa6";
+import FrameOne from '../Assets/Images/Frame-18.png'
+import FrameTwo from '../Assets/Images/Frame-19.png'
 
 const HomePage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -42,15 +44,18 @@ const HomePage = () => {
 
       <div className="invite-board">
        <div className="invite-board-inner">
+          <img src={FrameOne}  alt="" className="frameOne"/>
+       <div className="invite-holder">
        <p className="announcement-01">WE'RE GETTING MARRIED!</p>
         <p className="invite-note">
-          The Love Of My Life (LOML) and I, invites you to our Wedding. Join us
-          as we celebrate our love and commitment to each other. Your presence
-          will make our special day even more memorable.
+        You are cordially invited to the wedding of Abidemi & Olanrewaju. Join us as we celebrate our love and commitment to each other. Your presence will make our special day even more memorable.
         </p>
         <p className="hash-tag-one">#CantDanceDontCare</p>
         <p className="color-of-the-day">Colors of the day</p>
         <p className="colors">Aqua Green / Olive Green</p>
+       </div>
+       <img src={FrameTwo}  alt="" className="frameOne frameTwo"/>
+
        </div>
       </div>
 
@@ -119,28 +124,34 @@ const HomePage = () => {
           <div className="leaf"></div>
           <p>WHEN & WHERE</p>
           <span>Wedding</span>
-          <div className='icons'><TfiCalendar size={50} style={{ color: "goldenrod" }} /></div>
           <div className="event-holder">
+        <div>
+          <div className='icons'><TfiCalendar size={50} style={{ color: "goldenrod" }} /></div>
             <div className="event-inner">
               <div className="event">THE CHURCH CEREMONY</div>
               <div className="location">
                 Chapel Of Christ The Light. <br /> Alausa Secretariat, M.K.O Abiola Gardens Rd, Ikeja <br /> Saturday, 30 December 2023 @10:00AM
               </div>
             </div>
-            <div className='icons'><FaChurch size={50} style={{ color: "goldenrod" }} /></div>
+        </div>
+          <div>
+          <div className='icons'><FaChurch size={50} style={{ color: "goldenrod" }} /></div>
             <div className="event-inner">
               <div className="event">THE RECEPTION/ ENGAGEMENT</div>
               <div className="location">
                 Anchor Events Place. <br /> 1 Registeration Close, beside FRC, off <br /> LateefJakande Road. Agidingbi, Lagos. <br /> Saturday, 30 December 2023 <br /> @ 1:00 PM
               </div>
             </div>
-            <div className='icons'><TfiMusicAlt size={50} style={{ color: "goldenrod" }} /></div>
+          </div>
+          <div>
+          <div className='icons'><TfiMusicAlt size={50} style={{ color: "goldenrod" }} /></div>
             <div className="event-inner">
               <div className="event">THE AFTER PARTY</div>
               <div className="location">
                 Anchor Events Place. <br /> 1 Registeration Close, beside FRC, off <br /> LateefJakande Road. Agidingbi, Lagos. <br /> Saturday, 30 December 2023 <br /> @ 8:00 PM
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>
